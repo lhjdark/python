@@ -3,6 +3,8 @@ from quitter import Quitter
 
 def fetch():
     print('Input => "%s"' % ent.get())
+    ent.insert(END, 'x')
+    ent.insert(0, 'x')
 
 
 root = Tk()
